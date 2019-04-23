@@ -1,17 +1,17 @@
 {
-  "name": "domains-by-registrar",
+  "name": "domains-by-registrant",
   "description": "A simple CLI which takes a domain registrant and provides all domains for the registrant",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Billy Sheppard",
   "bin": {
-    "domains-by-registrar": "./bin/run"
+    "domains-by-registrant": "./bin/run"
   },
-  "bugs": "https://github.com/Snitt/domains-by-registrar/issues",
+  "bugs": "https://github.com/BillyNoGoat/domains-by-registrant/issues",
   "dependencies": {
     "@oclif/command": "^1.5.12",
     "@oclif/config": "^1.12.11",
     "@oclif/plugin-help": "^2.1.6",
-    "domain-scout": "github:Snitt/viewdns-info-registrant-scraper"
+    "domain-scout": "github:BillyNoGoat/domain-registrar-scout"
   },
   "devDependencies": {},
   "engines": {
@@ -21,7 +21,7 @@
     "/bin",
     "/src"
   ],
-  "homepage": "https://github.com/Snitt/domains-by-registrar",
+  "homepage": "https://github.com/BillyNoGoat/domains-by-registrant",
   "keywords": [
     "oclif"
   ],
@@ -30,7 +30,7 @@
   "oclif": {
     "bin": "domains-by-registrar"
   },
-  "repository": "Snitt/domains-by-registrar",
+  "repository": "BillyNoGoat/domains-by-registrant",
   "scripts": {
     "test": "echo NO TESTS"
   }
